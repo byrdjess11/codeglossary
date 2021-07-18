@@ -7,6 +7,103 @@
     <title>Document</title>
 </head>
 <body>
+
+    <!-- Regular Table Example -->
     
+    <table>
+        <th>Table Title</th>
+
+        <tr>
+            <th></th>
+            <th scope="col">Heading</th>
+            <th scope="col">Heading</th>
+        </tr>
+
+        <tr>
+            <th scope="row">Heading</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+
+        <!--This colapses two columns together-->
+        <tr>
+            <th scope="row">Heading</th>
+            <td colspan="2">Data</td>
+            <td>Data</td>
+        </tr>
+
+        <!--This colapses two rows together-->
+        <tr>
+            <th scope="row">Heading</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td rowspan="2">Data</td>
+        </tr>
+
+    </table>
+
+    <hr />
+
+    <!--Long table example-->
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>TITLE</th>
+                <th>TITLE</th>
+                <th>TITLE</th>
+                <th>TITLE</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Header</th>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+            </tr>
+
+            <tr>
+                <th>Header</th>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+            </tr>
+
+            <tr>
+                <th>Header</th>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+            </tr>
+
+            <tr>
+                <th>Header</th>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+            </tr>
+
+            <tr>
+                <th>Header</th>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+        </tfoot>
+    </table>
+
 </body>
 </html>
