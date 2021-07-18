@@ -8,5 +8,137 @@
 </head>
 <body>
     
+    <!--Form Example-->
+    <form action="" method="" id="">
+
+    <!--Types of Inputs -->
+
+    <!--Text Input, one lined text-->
+    <label>Username:<br />
+    <input type="text" name="username" required="required"/> 
+   </label>
+    
+   <br />
+
+    <!--Password-->
+    <label>Password:<br />
+        <input type="password" name="password" required="required"/>
+    </label>
+
+    <br />
+
+    <!--Text Area, area to leave comments-->
+    <label>Leave us a comment:<br />
+        <textarea name="comments"> Enter comment..</textarea>
+    </label>
+
+    <br />
+
+    <!--Radio Button, allows one option. Once option clicked you can not deselct a radio button-->
+    Select favorite:
+        <br />
+        <input type="radio" name="favorite" value="one" id="one"><label for="one"> Option 1 </label>
+        <input type="radio" name="favorite" value="two" id="two"><label for="two"> Option 2 </label>
+        <input type="radio" name="favorite" value="three"  id="three"><label for="three"> Option 3 </label>
+  
+    <br />
+
+    <!--Checkbox, allows multiple options-->
+   Select favorites: 
+        <br />
+        <input type="checkbox" name="favorite" value="uno" id="uno"><label for="uno"> Option 1 </label>
+        <input type="checkbox" name="favorite" value="dos" id="dos"><label for="dos"> Option 2 </label>
+        <input type="checkbox" name="favorite" value="tres" id="tres"><label for="tres"> Option 3 </label>
+        <input type="checkbox"  name="default" value="default" id="default" checked="checked"><label for="default">Checked Option</label>
+ 
+    <br />
+
+    <!--ALL EX ARE MISSING LABEL ELEMENT-->
+
+    <!--Dropdown Lists Box OR Select Box, only suitbale for long list of items-->
+    Select favorite:
+        <br />
+        <select name="options">
+            <option value="one"><label for="option-one"> Option 1 </label></option>
+            <option value="two" selected="selected"><label for="option-two"> Option 2 </label></option>
+            <option value="three"><label for="option-three"> Option 3 </label></option>
+        </select>
+ 
+    <br />
+
+    <!--Multiple Select Box, let users know they need to click ctrl/cmmd to click multiple options, 
+        only suitbale for long list of items-->
+    <p>Select favorite:</p>
+    <br />
+    <select name="instruments" multiple="multiple" size="2">
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3" selected="selected">Option 3</option>
+        <option value="Option 4">Option 4</option>
+        <option value="Option 5" selected="selected">Option 5</option>
+        <option value="Option 6">Option 6</option>
+    </select>
+
+    <br />
+    <!--File Input Box, uploads images, videos, mp3 or PDF-->
+    <p>Upload Document:</p>
+    <input type="file" name="document" method="post" />
+    <input type="submit" name="upload" value="upload" />
+
+    <!--Submit button--->
+    <p>Subscribe:</p>
+    <input type="text" value="email" />
+    <input type="submit" name="subscribe" value="subscribe" /> 
+
+    <!--Image Button-->
+    <p>Subscribe:</p>
+    <input type="text" value="email" />
+    <input type="image" src="" />
+
+    <br />
+    <br />
+
+    <!--Button-->
+
+    <button>  
+        <img src="" alt="add">
+    </button>
+    <input type ="hidden" name="" value="" />
+
+    <!--Contac t details using <fieldset>-->
+
+    <fieldset>
+        <legend>Contact Details</legend>
+        <label>Name:
+            <input type="text" name="name" /></label><br />
+        <label>Email:
+            <input type="email" name="email" /></label><br />
+        <label>Mobile:
+            <input type="text" name="mobile" /></label><br />
+        <label>Date:
+            <input type="date" name="date" />
+            <input type="submit" value="submit">
+        </label>
+        <br />
+        <label>Website Link:
+            <input type="url" name="website" />
+            <input type="submit" value="submit" />
+        </label>
+    </fieldset>
+
+    <br />
+    <!--Search Input-->
+
+    <label>Look Up:
+        <input type="search" name="search" placeholder="search" />
+        <input type="submit" value="search" />
+    </label>
+
+
+    </form>
+
+
+
+
 </body>
 </html>
