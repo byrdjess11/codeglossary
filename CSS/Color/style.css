@@ -1,0 +1,43 @@
+/* CSS NOTES */
+* {
+    margin: 0;
+}
+
+/* color name */
+#page {
+    background-color: blue;
+}
+
+/* hex codes */
+#first {
+    background-color: #ee3eee ;
+}
+
+/* rgb */
+#second {
+ background-color: rgb(93,3,76);
+ opacity: 0.9;
+}
+
+/* CSS3- rbga */
+
+#info {
+    background-color: rgb(3,230,6);
+    opacity: 0.5;
+    background-color: rgba(3, 230, 6, 0.5);
+}
+
+/* CSS - HSL + HSLA */
+
+#email {
+    background-color: rgb(182, 134, 134);
+    background-color: hsl(2, 30%, 60%);
+}
+
+#name {
+    background-color: gray;
+    opacity: 0.5;
+    background-color: rgba(204, 204, 204, 0.5);
+}
+
+
