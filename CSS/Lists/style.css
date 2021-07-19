@@ -1,0 +1,20 @@
+/*Order list items are aligned with the words */
+ol {
+    width: 250px;
+    list-style: inside lower-roman;
+}
+
+/*Unordered list items are aligned with the words*/
+
+ul.first {
+    width: 250px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+/*Unordered list items are to the left of the words, and items can be an img*/
+ul.second {
+    width: 250px;
+    list-style-type: url("");
+    list-style-position: outside;
+}

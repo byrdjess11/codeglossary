@@ -1,0 +1,28 @@
+table.one {
+    width: 500px;
+    padding: 2px;
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+
+table.two {
+    width: 500px;
+    padding: 2px;
+    border-spacing: 10px 10px;
+    empty-cells: hide;
+
+}
+
+td {
+    background-color: teal;
+    color: white;
+    text-transform: lowercase;
+}
+
+td:hover {
+    background-color: tomato;
+}
+
+th {
+    text-transform: uppercase;
+}
