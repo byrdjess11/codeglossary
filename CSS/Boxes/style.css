@@ -1,0 +1,88 @@
+/*Inline, changes li from block element to inline*/
+
+body,html {
+    text-align: center;
+
+}
+li {
+    display: inline;
+}
+
+/*When wanting to center a box, use auto value for left,right margin, make sure container box 
+is in has a text-align value of center*/
+div.first {
+    height: 300px;
+    width: 300px;
+    margin: 0px auto 0px auto;
+    background-color: thistle;
+    border-width: 10px 5px 10px 5px;
+    border-style:ridge;
+    border-color: rgb(133, 57, 133);
+}
+
+div.second {
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(165, 165, 80);
+    border: 15px dotted black;
+    border-radius: 25px 15px;
+    -moz-boder-radius: 25px 15px;
+    -webkit-border-radius: 25px 15px;
+    -moz-box-shadow: inset 0 5px 0 5px rgb(33, 138, 207);
+    -webkit-box-shadow: inset 0 5px 0 5px rgb(33, 138, 207);
+    box-shadow: inset 0 5px 0 5px rgb(33, 138, 207);
+}
+
+/*IMG missing, this would create 9 pic border using img*/
+div.third {
+    width:200px;
+    -moz-border-image: url("")
+    10 10 10 10 round;
+    -webkit-border-image: url("")
+    10 10 10 10 round;
+    border-image: url("")
+    10 10 10 10 round;
+
+    -moz-box-shadow: 10px -5px #7777;
+    -webkit-box-shadow: 10px -5px #777;
+    box-shadow: 10px -5px black;
+}
+
+h2 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h3 {
+    display: inline;
+}
+
+/*When wanting to center a box, use auto value for left,right margin, make sure container box 
+is in has a text-align value of center; overflow allows you to manage content pouring out of box;
+block display changes p from inline to block element*/
+p {
+    padding: 5px;
+    height: 75%;
+    width: 75%;
+    min-width:none;
+    max-width: none;
+    min-height: none;
+    max-height: none;
+    background-color: teal;
+    overflow:scroll;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*Visibilty hides box but leavs space, non display removes space and value*/
+#invisible {
+    visibility: hidden;
+}
+
+#remove {
+    display: none;
+}
