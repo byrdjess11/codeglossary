@@ -1,0 +1,23 @@
+input#text {
+    font-size: 20px;
+    color: green;
+    background-color: rgb(255, 0, 0);
+}
+
+input#text:hover {
+    background-color: violet;
+}
+
+input#submit {
+    color: white;
+    background-color: black;
+}
+
+legend {
+    border: 10px solid orange;
+}
+
+.title {
+    float: left;
+    width: 100px;
+}
